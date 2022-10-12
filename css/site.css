@@ -26,7 +26,7 @@ footer{
 }
 
 .footer{
-    background: var(--ts-primary-color);
+    background: var(--ts-secondary-color);
     color:var(--ts-light-color);
 }
 
@@ -35,7 +35,7 @@ footer{
 }
 
 #mainNav{
-    background-color: var(--ts-primary-color) !important;
+    background-color: var(--ts-secondary-color) !important;
 }
 
 .checkList{
