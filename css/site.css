@@ -1,0 +1,57 @@
+:root{
+    --ts-primary-color: rgba(20, 2, 75, 0.992);
+    --ts-secondary-color: rgb(230, 131, 12);
+    --ts-dark-color:rgba(0,0,0);
+    --ts-light-color: rgb(255, 255, 255);
+
+    
+}
+
+html,body{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.content{
+    flex:1 0 auto;
+    margin-top:5rem;
+}
+
+footer{
+    flex-shrink:0;
+}
+
+.footer{
+    background: var(--ts-primary-color);
+    color:var(--ts-light-color);
+}
+
+.social-icons{
+    color:var(--ts-light-color);
+}
+
+#mainNav{
+    background-color: var(--ts-primary-color) !important;
+}
+
+.checkList{
+    list-style-type: none;
+}
+
+/* Looking for li in checklist and then locate the icon */
+.checkList>li i{
+    color:var(--ts-secondary-color);
+    padding-right: .5rem;
+}
+
+.devIcons{
+    font-size:4rem;
+}
+
+/* .appLogo{
+    max-width:;
+} */
